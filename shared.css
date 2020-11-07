@@ -6,6 +6,11 @@ body {
     font-family: Georgia, 'Times New Roman', Times, serifS;
     margin: 0;
 }
+
+main {
+    min-height: calc(100vh - 3.5rem - 8rem);
+    margin-top:3.5rem;
+}
 .backdrop {
     position: fixed;
     display:none;
@@ -36,7 +41,7 @@ body {
     color: rgb(34, 49, 3);
     text-decoration: none;
     vertical-align: middle;
-    height: 32px;
+    height: 2.5rem;
     display: inline-block;
     vertical-align: middle;
     
@@ -46,9 +51,10 @@ body {
 }
 
 .main-nav {
-    display: inline-block;
+    /* display: inline-block;
     text-align: right;
-    width: calc(100% - 112px);
+    width: calc(100% - 112px); */
+    display: none;
 }
 
 .main-nav__item {
@@ -125,6 +131,24 @@ body {
 .button:focus {
     outline: none;
 }
+/* .button [disabled] {
+    cursor: not-allowed;
+    border: rgb(143, 142, 142);
+    background:#ccc;
+    color: black;
+} */
+@media (min-width: 40rem) {
+    .toggle-button {
+      display: none;
+    }
+  
+    .main-nav {
+      display: inline-block;
+      text-align: right;
+      width: calc(100% - 44px);
+      vertical-align: middle;
+    }
+  }
 .main-footer {
     background:black;
     padding:32px;
@@ -138,7 +162,7 @@ body {
 }
 
 .main-footer__link {
-    display: inline-block;
+    display: block;
     margin: 0 1rem;
 
 }
@@ -205,3 +229,11 @@ body {
   .open {
       display: block !important;
   }
+
+  @media (min-width: 40rem) {
+    .main-footer__link {
+      display: inline-block;
+      margin: 0 1rem;
+    }
+  }
+  
