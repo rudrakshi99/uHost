@@ -1,11 +1,3 @@
-* {
-    box-sizing: border-box;
-}
-
-body {
-    font-family: Georgia, 'Times New Roman', Times, serifS;
-    margin: 0;
-}
 
 /* 
 h1 {
@@ -28,7 +20,7 @@ h1 {
     background-origin: padding-box;
     /*background-image: linear-gradient(to bottom,red, blue); */
     /* background-image: radial-gradient(circle at 20% 50%, red,blue); */
-    margin: 60px 0px;
+   
     font-size: 20px;
     color: whitesmoke;
     height: 53vh;
@@ -100,17 +92,23 @@ h1 {
 @media (min-width: 40rem) { /*desktop version*/
     .plan__list {
         width: 100%;
-        text-align: center;
+        display: flex;
+        justify-content: center;
+        align-items: center;
     }
     .plan {
-        display: inline-block;
         width: 30%;
-        vertical-align: middle;
         min-width: 13rem;
         max-width: 25rem;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        height: 28rem;
     }
     .plan--highlighted {
         box-shadow: 2px 2px 2px 2px rgb(0,0,0,0.5);
+        height: 30rem;
+        z-index: 50;
     }
 }
 
@@ -124,7 +122,7 @@ h1 {
 
 .plan--highlighted .plan__price {
     color: rgb(6, 36, 6);
-    ;
+    
 }
 
 .plan--highlighted .plan__tiltle {
@@ -164,12 +162,14 @@ h1 {
 
 @media (min-width: 40rem) {
     .key-feature {
-        display: inline-block;
         width: 30%;
         max-width: 25rem;
-        vertical-align: top;
+        
     }
-    
+    .key-feature__list {
+        display: flex;
+        justify-content: center;
+    }
 }
 
 .key-features__image {
@@ -184,8 +184,11 @@ h1 {
 
 .modal {
     position: fixed;
-    display: none;
+    /* display: none; */
     z-index: 200;
+    opacity: 0;
+    transform:translateY(-3rem);
+    transition: opacity 200ms ease-out, transform 500ms ease-out;
     top: 20%;
     left: 30%;
     width: 40%;
