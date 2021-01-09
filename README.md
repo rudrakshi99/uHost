@@ -13,4 +13,4 @@ You can download the zipped file of the project, extract it, and simply double-c
 
 If you are a **freelancer** and searching for a web hosting site then try [uHost](https://rudrakshi99.github.io/uHost/index.html).
 ## Show your Support
-Give a ⭐️ if you like this project!
+Give a ⭐️ if you like this project !
