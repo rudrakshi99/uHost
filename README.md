@@ -15,27 +15,9 @@ If you are a **freelancer** and searching for a web hosting site then try [uHost
 
 ## ScreenShots 📸
 
- <p align="center"> <b> Laptop View 💻 </b> </p>
-
-<p align="center">
-  <img  src="./Screenshots/Screenshot1.png">
-</p>
-
-<p align="center">
-  <img  src="./Screenshots/Screenshot2.png">
-</p>
-
-<p align="center">
-  <img  src="./Screenshots/Screenshot3.png">
-</p>
-
- <p align="center"> <b> Mobile View 📱 </b> </p>
- 
- <p align="center" >
-  <img  height=700px src="./Screenshots/phone1.jpeg">
-  <img height=700px src="./Screenshots/phone2.jpeg">
-   <img  height=700px src="./Screenshots/phone3.jpeg">
-</p>
+![e (2)](https://user-images.githubusercontent.com/55245862/108162499-402de900-7113-11eb-92dc-c83e43f00068.png)
+![e (3)](https://user-images.githubusercontent.com/55245862/108162492-3e642580-7113-11eb-976d-d0d82ae83e7a.png)
+![e (4)](https://user-images.githubusercontent.com/55245862/108162485-3c01cb80-7113-11eb-9e7f-b4d2097ee989.png)
 
 
 ## Show your Support
