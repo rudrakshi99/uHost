@@ -1,6 +1,9 @@
-# uHost <img src ="./images/uhost-icon.png" height=49px >
 
-It is a Responsive Web Application for a fictional hosting company **uHost** which provides web hosting services.
+<p align="center"><img src ="./images/uhost-icon.png" height=150px width=150px >
+  <h1 align="center">uHost</h1>
+  <p align="center">A Responsive Web Application for a fictional hosting company <b>uHost</b> which provides web hosting services.
+
+</p>
 
 ## uHost Plans 📜
 
