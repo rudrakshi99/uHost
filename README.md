@@ -13,7 +13,7 @@ Choosing the right hosting plan will mean having access to the right allocation 
 1. Clone the repository
 
 ```bash
-git clone https://rudrakshi99.github.io/uHost/index.html
+git clone https://github.com/rudrakshi99/uHost.git
 ```
 
 2. Open the index.html file in your browser
