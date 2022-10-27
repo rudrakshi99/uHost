@@ -29,10 +29,12 @@ main {
     border: 4px solid green;
     border-left: none;
     position: relative;
-    overflow: hidden; /*any item outside package container will be hidden*/ 
+    overflow: hidden;
+    /*any item outside package container will be hidden*/
 }
 
-.package:hover, .package:active {
+.package:hover,
+.package:active {
     box-shadow: 2px 2px 2px 4px rbga(0, 0, 0, 0.5);
     border-color: greenyellow;
 }
@@ -92,7 +94,8 @@ main {
     text-align: right;
 }
 
-#free:hover, #free:active {
+#free:hover,
+#free:active {
     border-left-color: greenyellow;
 }
 
@@ -123,7 +126,8 @@ main {
     #free {
         border-right: 4px solid green;
     }
-    #free:hover, #free:active {
+    #free:hover,
+    #free:active {
         border-right-color: greenyellow;
     }
 }
