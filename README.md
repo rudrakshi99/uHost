@@ -1,5 +1,5 @@
 
-<p align="center"><img src ="./images/uhost-icon.png" height=150px width=150px >
+<p align="center"><img src ="https://user-images.githubusercontent.com/55245862/209439682-702cfc5e-293a-4505-82cc-d6943fc369df.png" height=150px width=150px >
   <h1 align="center">uHost</h1>
   <p align="center">A Responsive Web Application for a fictional hosting company <b>uHost</b> which provides web hosting services.
 
